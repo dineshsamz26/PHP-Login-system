@@ -1,4 +1,6 @@
-
+<?php
+    include_once 'header.php';
+?>
     <main>
         <div class="container">
             <header
@@ -195,3 +197,6 @@
         </div>
     </div>
 </div> -->
+<?php
+    include_once 'footer.php';
+?>

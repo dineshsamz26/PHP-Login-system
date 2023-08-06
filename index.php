@@ -1,12 +1,12 @@
 <?php
 include_once 'header.php';
 ?>
-<h1>Hello</h1>
-<p>Welcome to Samz School</p>
-
-<?php
-include_once 'login.php';
-?>
+<div class="hero-main">
+    <div class="container hero">
+        <p>Hello Welcome to</p>
+        <h1>Samz School</h1>
+    </div>
+</div>
 
 <?php
 include_once 'footer.php';

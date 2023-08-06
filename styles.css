@@ -1,6 +1,27 @@
 form{
-    padding: 8%;
+    padding-left: 4%;
+    padding-right: 4%;
 }
 h1{
     color: rgb(0, 0, 163);
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Center the text horizontally */
+
+
+}
+.hero-main{
+    min-height: 80vh;
+    background: url('./assests/images/hero-bg.jpg') ;
+    background-size: cover;
+    background-position: center center;
+}
+.header-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }

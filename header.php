@@ -10,6 +10,7 @@
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
     <script src='main.js'></script>
+    <!-- nav bar -->
     <div class="container">
         <header
             class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
@@ -23,7 +24,7 @@
                 </a>
             </div>
             <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-                <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
+                <li><a href="index.php" class="nav-link px-2 link-secondary">Home</a></li>
                 <li><a href="#" class="nav-link px-2">Features</a></li>
                 <li><a href="#" class="nav-link px-2">Pricing</a></li>
                 <li><a href="#" class="nav-link px-2">FAQs</a></li>

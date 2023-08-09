@@ -3,7 +3,7 @@ form{
     padding-right: 4%;
 }
 h1{
-    color: rgb(0, 0, 163);
+    color: rgb(255, 255, 255);
 }
 .hero {
     display: flex;
@@ -19,9 +19,64 @@ h1{
     background: url('./assests/images/hero-bg.jpg') ;
     background-size: cover;
     background-position: center center;
+    padding: 30px;
 }
 .header-content{
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding: 30px;
+}
+/* .nav-menu{
+    list-style-type: none;
+    display: inline
+} */
+
+/* Assuming you have a class named "nav-menu" for the <ul> element */
+.nav-menu {
+    list-style: none; /* Remove default list bullet */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox to create a horizontal layout */
+}
+
+/* Style for individual list items */
+.nav-menu li {
+    margin-right: 20px; /* Add spacing between list items */
+}
+
+/* Style for anchor links inside list items */
+.nav-link {
+    text-decoration: none;
+}
+
+
+
+/* Assuming you have a class named "header-content" for the main container */
+.header-content {
+    display: flex; /* Use flexbox to create a horizontal layout */
+    align-items: center; /* Vertically align items in the center */
+    justify-content: space-between; /* Distribute items evenly along the horizontal axis */
+}
+
+/* Style for the site logo */
+.site-logo {
+    flex: 1; /* Allow the logo to grow and take available space */
+    display: flex; /* Align items horizontally */
+    align-items: center; /* Vertically align items in the center */
+}
+
+/* Style for the navigation menu */
+.main-nav {
+    flex: 1; /* Allow the navigation to grow and take available space */
+    display: flex; /* Align items horizontally */
+    align-items: center; /* Vertically align items in the center */
+    justify-content: center; /* Center the navigation horizontally */
+}
+
+/* Style for the authentication buttons */
+.auth-buttons {
+    flex: 1; /* Allow the buttons to grow and take available space */
+    display: flex; /* Align items horizontally */
+    align-items: center; /* Vertically align items in the center */
+    justify-content: flex-end; /* Push the buttons to the right */
 }

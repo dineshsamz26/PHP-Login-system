@@ -80,3 +80,17 @@ h1{
     align-items: center; /* Vertically align items in the center */
     justify-content: flex-end; /* Push the buttons to the right */
 }
+
+/* Style for the content box */
+.content-box {
+    max-width: 1440px; /* Set the maximum width for your content */
+    margin: 0 auto; /* Center the content horizontally */
+    padding: 20px; /* Add padding to create space between the content and the box edges */
+    background-color: #fff; /* Set background color */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a slight shadow */
+}
+
+/* Style for the boxed form */
+.boxed-form {
+    /* Add specific form styling here if needed */
+}
